@@ -9,8 +9,9 @@ db.results_as_hash = true
 
 get '/' do
   posts = db.execute("SELECT * FROM posts ORDER BY id DESC")
-  pp posts
-  erb :index
+  # pp posts
+  # erb :index
+  erb :index,{ :locals => {:posts => { :posts => posts} }
 end
 
 get '/hello' do
