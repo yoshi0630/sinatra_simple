@@ -20,7 +20,7 @@
       </form>
 <% posts.each do |post| %>
 <div>
-<% escape_html post["text"] %>
+<%= escape_html post["text"] %>
 </div>
 <% end %>
     </div>
