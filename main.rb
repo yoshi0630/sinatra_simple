@@ -17,11 +17,11 @@ get '/' do
 end
 
 get '/hello' 
-  "Hello world"
+"Hello world"
 end
 
 get '/example' do
-  erb :example
+erb :example
 end
 
 post '/' do
