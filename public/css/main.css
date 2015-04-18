@@ -66,3 +66,13 @@ textarea {
     color: yellow;
     
 }
+
+.add-star {
+    cursor: pointer;
+
+}
+
+.add-star:hover {
+    text-decoration: underline;
+
+}
